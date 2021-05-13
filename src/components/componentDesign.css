@@ -1,0 +1,63 @@
+.navbar-brand a{
+    color: rgb(248, 182, 182);
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+    color:rgb(166, 224, 79);
+    font-family: cursive;
+ }
+
+.nav-item{
+    margin: 0 8px;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+   text-decoration: none;
+   color: rgb(124, 160, 71);
+   font-family: cursive;
+}
+
+.container h2{
+    text-align: center;
+    color:rgb(116, 64, 44);
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+.home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.home-discription{
+    padding-top: 2.5rem;
+    padding-right: 10px;
+    width: 50%;
+}
+.home-discription h2{
+    font-size: 2.5em;
+    margin-bottom: 3rem;
+}
+.home-discription h2 span{
+    border-bottom: 1px lightsalmon solid;
+    font-size: 0.6em;
+    font-family: cursive;
+}
+.quote1{
+    font-size: 1.4em;
+    font-family: cursive;
+    color: red;
+}
+.sbs-img{
+   
+    width: 50%;
+    height: 300px;
+    background-image: url('../HomeBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
